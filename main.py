@@ -28,8 +28,9 @@ exchanges = [
     "Poloniex"
 ]
 
-print(f"The largest margin is between [{exchanges[btc_prices.index(max(btc_prices))]} at {max(btc_prices)}] and [{exchanges[btc_prices.index(min(btc_prices))]} at {min(btc_prices)}]")
-print(f"The margin is {round(max(btc_prices)/min(btc_prices)*100-100, 2)}%")
+print(f"Maximum: {exchanges[btc_prices.index(max(btc_prices))]} at {max(btc_prices)}")
+print(f"Minimum: {exchanges[btc_prices.index(min(btc_prices))]} at {min(btc_prices)}")
+print(f"Margin: {round(max(btc_prices)/min(btc_prices)*100-100, 2)}%")
 #print(exchanges[btc_prices.index(max(btc_prices))], max(btc_prices))
 #print(exchanges[btc_prices.index(min(btc_prices))], min(btc_prices))
 
