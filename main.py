@@ -28,26 +28,9 @@ exchanges = [
     "Poloniex"
 ]
 
-print(f"Maximum: {exchanges[btc_prices.index(max(btc_prices))]} at {max(btc_prices)}")
-print(f"Minimum: {exchanges[btc_prices.index(min(btc_prices))]} at {min(btc_prices)}")
+print(f"Maximum: {max(btc_prices)}, {exchanges[btc_prices.index(max(btc_prices))]}")
+print(f"Minimum: {min(btc_prices)}, {exchanges[btc_prices.index(min(btc_prices))]}")
 print(f"Margin: {round(max(btc_prices)/min(btc_prices)*100-100, 2)}%")
+
 #print(exchanges[btc_prices.index(max(btc_prices))], max(btc_prices))
 #print(exchanges[btc_prices.index(min(btc_prices))], min(btc_prices))
-
-
-"""
-for i in range(len(prices)):
-    print(prices[i][0])
-    for j in range(len(prices)):
-        max = prices[i][0]
-        if max <= prices[j][0]:
-            max = prices[j][0]
-            max_name = prices[j][1]
-        min = prices[i][0]
-        if min >= prices[j][0]:
-            min = prices[j][0]
-            min_name = prices[j][1]
-        
-    print(max_name, min_name)
-"""
-    
