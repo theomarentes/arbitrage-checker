@@ -1,5 +1,7 @@
 # Arbitrage Checker - Python Application
 
+This application checks 7 crypto exchanges and calculates whether there is an arbitrage opportunity. The application sends an email to the user if a certain arbitrage margin is met.
+
 ## Requirements
 - Python3: [python.org/downloads](https://www.python.org/downloads/)
 - Gmail Account: [mail.google.com](https://mail.google.com/)
