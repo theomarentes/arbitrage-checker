@@ -10,7 +10,7 @@ Using the python domain sniper requires a Gmail app specific password: [support.
 
 Input each value into the main.py file:
 
-![inputs in main.py file](imgs/inputs.jpg)
+![inputs in main.py file](img/inputs.jpg)
 
 Execute "python3 main.py" to run the sniper.
 
