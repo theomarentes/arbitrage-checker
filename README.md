@@ -12,7 +12,7 @@ This application checks 7 crypto exchanges and calculates whether there is an ar
 <br>
 
 ## Installation 
-Using the python domain sniper requires a Gmail app specific password: [support.google.com](https://support.google.com/accounts/answer/185833)
+Using the arbitrage checker requires a Gmail app specific password: [support.google.com](https://support.google.com/accounts/answer/185833)
 
 Input each value into the main.py file:
 
