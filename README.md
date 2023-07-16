@@ -2,10 +2,14 @@
 
 This application checks 7 crypto exchanges and calculates whether there is an arbitrage opportunity. The application sends an email to the user if a certain arbitrage margin is met.
 
+<br>
+
 ## Requirements
 - Python3: [python.org/downloads](https://www.python.org/downloads/)
 - Gmail Account: [mail.google.com](https://mail.google.com/)
 
+
+<br>
 
 ## Installation 
 Using the python domain sniper requires a Gmail app specific password: [support.google.com](https://support.google.com/accounts/answer/185833)
