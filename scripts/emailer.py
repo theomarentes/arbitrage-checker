@@ -9,10 +9,11 @@ class Emailer:
         password = sender_password
         message = f"""\
         From: Python
-
+        
+        Margin: {margin}%
         Maximum: {high} at {high_exchange}
         Minimum: {low} at {low_exchange}
-        Margin: {margin}%"""
+        """
 
         context = ssl.create_default_context()
         with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
