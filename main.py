@@ -11,7 +11,7 @@ sender_password = ""
 receiver_email = ""
 
 # Enter the margin required to send an email (in percent)
-email_margin = 1
+email_margin = 2
 
 
 Logic.logic(email_margin, sender_email, receiver_email, sender_password)
