@@ -1,5 +1,5 @@
-from scrape import BinanceApi, KucoinApi, BitfinexApi, KrakenApi, BybitApi, GateApi, PoloniexApi
-from emailer import Emailer
+from scripts.scrape import BinanceApi, KucoinApi, BitfinexApi, KrakenApi, BybitApi, GateApi, PoloniexApi
+from scripts.emailer import Emailer
 
 
 btc_prices = [
