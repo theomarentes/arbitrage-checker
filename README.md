@@ -20,6 +20,8 @@ Input each value into the main.py file:
 
 Execute "python3 main.py" to run the sniper.
 
+All of the packages used in the application are default Python packages. There is no installation required as long as you have Python 3.
+
 <br>
 
 ## Continuous Running
